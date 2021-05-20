@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+import App from "App";
 import { ThemeProvider } from "styled-components";
-import { theme } from "./Themes/mainTheme";
-import GlobalStyle from "./Themes/GlobalStyle";
+import { theme } from "Themes/mainTheme";
+import GlobalStyle from "Themes/GlobalStyle";
 
 ReactDOM.render(
   <React.StrictMode>
