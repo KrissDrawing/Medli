@@ -9,6 +9,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
+button {
+    background:none;
+    border:none;
+}
+
 html {
     font-size: 62.5%;
 }
