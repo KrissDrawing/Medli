@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import burger from "./burger.svg";
 import logo from "assets/img/logo/Logo.svg";
+import Navigation from "./Navigation";
 
 const Wrapper = styled.nav`
   margin-top: 35px;
@@ -19,6 +20,7 @@ const NavBar = () => {
   return (
     <Wrapper>
       <img src={logo} alt="Medli logo" />
+      <Navigation />
       <BurgerButton>
         <img src={burger} alt="toggle navigation" />
       </BurgerButton>
