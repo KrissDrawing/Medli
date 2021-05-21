@@ -1,12 +1,20 @@
 import React from "react";
-import NavBar from "Components/Navigation/NavBar";
 import "./App.css";
+import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import NavBar from "Components/Navigation/NavBar";
+import CTAButton from "Components/Button/CTAButton";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <NavBar />
-    </div>
+      <Switch>
+        <Route exact path="/">
+          {/* <CTAButton>Get started</CTAButton> */}
+        </Route>
+        <Redirect to="/" />
+      </Switch>
+    </Router>
   );
 };
 
