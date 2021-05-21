@@ -8,6 +8,7 @@ const Wrapper = styled.section`
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 128px;
 `;
 
 const Achievements = () => {

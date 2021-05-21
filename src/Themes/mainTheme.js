@@ -10,7 +10,7 @@ const theme = {
   },
   screenSize: {
     s: "320px",
-    md: "768px",
+    md: "1440px",
   },
 };
 

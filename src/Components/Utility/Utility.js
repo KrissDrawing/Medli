@@ -10,6 +10,7 @@ export const H2 = styled.h2`
   color: ${({ theme }) => theme.colors.fontPrimaryDark};
   font-size: 50px;
   line-height: 117%;
+  margin-bottom: 36px;
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     font-size: 80px;

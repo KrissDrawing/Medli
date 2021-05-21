@@ -36,6 +36,7 @@ const Img = styled.img`
     height: 100%;
   }
 `;
+
 const StyledParagraph = styled(Paragraph)`
   margin: 16px 0 30px 0;
 `;

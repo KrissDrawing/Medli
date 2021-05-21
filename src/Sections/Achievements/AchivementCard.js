@@ -13,6 +13,13 @@ const Wrapper = styled.div`
   min-height: 130px;
   max-height: 160px;
   margin-bottom: 108px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+    @media (min-width: 1000px) {
+      margin-bottom: 108px;
+    }
+  }
 `;
 
 const AchivementCard = ({ heading, children }) => {
