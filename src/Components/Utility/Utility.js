@@ -19,7 +19,12 @@ export const H2 = styled.h2`
 export const H2Light = styled.h2`
   font-family: "Rozha One", serif;
   color: ${({ theme }) => theme.colors.primary};
+  margin-bottom: 6px;
   font-size: 80px;
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    margin-bottom: 16px;
+  }
 `;
 
 export const H4 = styled.h4`

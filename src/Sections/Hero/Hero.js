@@ -15,6 +15,7 @@ const Wrapper = styled.section`
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     flex-direction: row-reverse;
     height: 434px;
+    margin-bottom: 222px;
   }
 `;
 
