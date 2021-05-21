@@ -11,6 +11,11 @@ const Wrapper = styled.section`
   flex-direction: column;
   align-items: center;
   margin-bottom: 64px;
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    flex-direction: row-reverse;
+    height: 434px;
+  }
 `;
 
 const InfoWrapper = styled.div`
@@ -24,6 +29,11 @@ const Img = styled.img`
   width: 308px;
   height: 175px;
   margin-bottom: 42px;
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    width: 667px;
+    height: 100%;
+  }
 `;
 const StyledParagraph = styled(Paragraph)`
   margin: 16px 0 30px 0;

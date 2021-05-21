@@ -9,6 +9,10 @@ const Wrapper = styled.nav`
   margin-bottom: 48px;
   display: flex;
   justify-content: space-between;
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    margin-bottom: 148px;
+  }
 `;
 
 const BurgerButton = styled.button`
