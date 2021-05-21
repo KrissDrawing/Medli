@@ -6,6 +6,10 @@ const GlobalStyle = createGlobalStyle`
     margin:0; padding:0;
     box-sizing: border-box;
     font-family: 'Reem Kufi', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-weight: 400;
 }
 
 button {
@@ -20,7 +24,7 @@ html {
 
 body {
     font-size: 1.6rem;
-    background-color: #E5E5E5;
+    background-color: #FEF4E6;
     padding: 0 24px;
 
     @media (min-width: 800px) {

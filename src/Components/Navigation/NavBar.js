@@ -1,11 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import burger from "./burger.svg";
-import logo from "assets/img/logo/Logo.svg";
+import logo from "assets/img/logo/logo.svg";
 import Navigation from "./Navigation";
 
 const Wrapper = styled.nav`
   margin-top: 35px;
+  margin-bottom: 48px;
   display: flex;
   justify-content: space-between;
 `;

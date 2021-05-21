@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 import NavBar from "Components/Navigation/NavBar";
-import CTAButton from "Components/Button/CTAButton";
+import Hero from "Sections/Hero";
 
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <NavBar />
       <Switch>
         <Route exact path="/">
-          {/* <CTAButton>Get started</CTAButton> */}
+          <Hero />
         </Route>
         <Redirect to="/" />
       </Switch>
