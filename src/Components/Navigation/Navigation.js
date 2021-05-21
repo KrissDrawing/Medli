@@ -1,3 +1,4 @@
+import { PrimaryButton } from "Components/Utility/Utility";
 import React from "react";
 import styled from "styled-components";
 
@@ -8,12 +9,18 @@ const Wrapper = styled.ul`
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     display: flex;
+    align-content: center;
   }
 `;
 
 const NavButton = styled.li`
   text-decoration: none;
   margin: 0 18px;
+  align-self: center;
+  &:last-of-type {
+    padding: 7px 31px;
+    ${PrimaryButton}
+  }
 `;
 
 const Navigation = () => {

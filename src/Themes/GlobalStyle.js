@@ -5,11 +5,13 @@ const GlobalStyle = createGlobalStyle`
 *,*::before, *::after{
     margin:0; padding:0;
     box-sizing: border-box;
+    font-family: 'Reem Kufi', sans-serif;
 }
 
 button {
     background:none;
     border:none;
+    cursor:pointer;
 }
 
 html {
@@ -19,7 +21,6 @@ html {
 body {
     font-size: 1.6rem;
     background-color: #E5E5E5;
-    font-family: 'Reem Kufi', sans-serif;
     padding: 0 24px;
 
     @media (min-width: 800px) {
