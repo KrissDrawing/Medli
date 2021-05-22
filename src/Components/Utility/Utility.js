@@ -5,6 +5,20 @@ export const PrimaryButton = css`
   border-radius: 8px;
 `;
 
+export const StyledButton = styled.button`
+  ${PrimaryButton};
+  height: 62px;
+  width: 100%;
+  font-size: ${({ size }) => (size === "small" ? "20x" : "25px")};
+  border-radius: ${({ size }) => (size === "small" ? "4px" : "8px")};
+  background-color: ${({ theme }) => theme.colors.primary};
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    width: ${({ size }) => (size === "small" ? "113px" : "255px")};
+    height: ${({ size }) => (size === "small" ? "34px" : "70px")};
+  }
+`;
+
 export const H2 = styled.h2`
   font-family: "Rozha One", serif;
   color: ${({ theme }) => theme.colors.fontPrimaryDark};
