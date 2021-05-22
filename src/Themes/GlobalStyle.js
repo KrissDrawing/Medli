@@ -23,6 +23,7 @@ html {
 }
 
 body {
+    overflow-x: hidden;
     font-size: 1.6rem;
     background-color: #FEF4E6;
     padding: 0 24px;
