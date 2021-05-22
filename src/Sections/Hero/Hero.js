@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { H2, Paragraph } from "Components/Utility/Utility";
+import { H2, Paragraph, NoWrap } from "Components/Utility/Utility";
 import CTAButton from "Components/Button/CTAButton";
 import heroImg from "./heroImg.svg";
 import logotype from "assets/img/logo/logotype.svg";
@@ -37,6 +37,13 @@ const Img = styled.img`
   }
 `;
 
+const Logotype = styled.img`
+  width: 27px;
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    width: 43px;
+  }
+`;
+
 const StyledParagraph = styled(Paragraph)`
   margin: 16px 0 30px 0;
 `;
@@ -47,9 +54,14 @@ const Hero = () => {
       <Img src={heroImg} />
       <InfoWrapper>
         <H2>
-          Check y
-          <img src={logotype} />
-          ur well-being
+          Check{" "}
+          <NoWrap>
+            y
+            <Logotype src={logotype} />
+            ur
+          </NoWrap>{" "}
+          <wbr />
+          <NoWrap>well-being</NoWrap>
         </H2>
         <StyledParagraph>
           We’re sure that deciding to check on your health is a big step, even if it doesn’t bother

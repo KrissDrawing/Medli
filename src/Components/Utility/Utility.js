@@ -63,3 +63,8 @@ export const Paragraph = styled.p`
     line-height: 36px;
   }
 `;
+
+export const NoWrap = styled.span`
+  white-space: nowrap;
+  font: inherit;
+`;
