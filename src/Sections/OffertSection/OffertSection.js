@@ -6,7 +6,9 @@ import PersonalCoachImg from "./Img/PersonalCoach.svg";
 import TextChatImg from "./Img/TextChat.svg";
 import { H2, Paragraph } from "Components/Utility/Utility";
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  margin-bottom: 64px;
+`;
 
 const CardWrapper = styled.section`
   display: flex;

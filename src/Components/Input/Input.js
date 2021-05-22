@@ -16,9 +16,10 @@ const StyledInput = styled.input`
   height: 62px;
   border-radius: 8px;
   padding: 15px 16px;
-  margin: 16px 0;
+  margin: 0 0 16px 0;
   font-size: 20px;
   position: relative;
+  color: ${({ theme }) => theme.colors.fontSecondaryLight};
   &::placeholder {
     color: ${({ theme }) => theme.colors.fontSecondaryDark};
   }
@@ -26,6 +27,7 @@ const StyledInput = styled.input`
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     height: 50px;
     width: 350px;
+    margin: 0;
   }
 `;
 
@@ -34,14 +36,14 @@ const Label = styled.label`
   font-size: 18px;
   position: absolute;
   top: -16px;
+  transform: translateY(-100%);
 `;
 
 const StyledCTAButton = styled(StyledButton)`
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     position: absolute;
     right: 8px;
-    bottom: 50%;
-    transform: translateY(50%);
+    top: 8px;
     width: 113px;
     height: 34px;
     font-size: 18px;
@@ -49,11 +51,10 @@ const StyledCTAButton = styled(StyledButton)`
   }
 `;
 
-const Input = ({ label, placeholder, type }) => {
+const Input = ({ placeholder, type }) => {
   return (
     <Wrapper>
-      <Label htmlFor="mail">{label}</Label>
-      <StyledInput id="mail" type={type} placeholder={placeholder} />
+      <StyledInput id="mail" type={type} placeholder={placeholder} required />
       <StyledCTAButton onClick={() => {}}>Get Started</StyledCTAButton>
     </Wrapper>
   );
