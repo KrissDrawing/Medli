@@ -33,6 +33,11 @@ export const H4 = styled.h4`
   font-size: 24px;
 `;
 
+export const H5 = styled.h5`
+  color: ${({ theme }) => theme.colors.fontSecondaryDark};
+  font-size: 18px;
+`;
+
 export const Paragraph = styled.p`
   font-size: 20px;
   line-height: 30px;
