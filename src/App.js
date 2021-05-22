@@ -5,6 +5,7 @@ import NavBar from "Components/Navigation/NavBar";
 import Hero from "Sections/Hero/Hero";
 import Achievements from "Sections/Achievements/Achievements";
 import CommunitySection from "Sections/CommunitySection/CommunitySection";
+import OffertSection from "Sections/OffertSection/OffertSection";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Hero />
           <Achievements />
           <CommunitySection />
+          <OffertSection />
         </Route>
         <Redirect to="/" />
       </Switch>

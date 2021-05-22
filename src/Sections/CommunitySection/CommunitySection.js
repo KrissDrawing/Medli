@@ -8,6 +8,7 @@ const Wrapper = styled.section`
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 64px;
 
   &::after {
     content: "";
@@ -27,6 +28,7 @@ const Wrapper = styled.section`
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     text-align: center;
+    margin-bottom: 151px;
   }
 `;
 
