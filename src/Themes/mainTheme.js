@@ -8,6 +8,10 @@ const theme = {
     fontSecondaryDark: "#7C8176",
     fontSecondaryLight: "#E5E5E5",
   },
+  bdRadius: {
+    small: "4px",
+    regular: "8px",
+  },
   screenSize: {
     s: "320px",
     md: "1440px",

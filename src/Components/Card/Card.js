@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   min-width: 327px;
   max-width: 350px;
   height: 439px;
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.bdRadius.regular}
   display: flex;
   flex-direction: column;
   align-items: center;

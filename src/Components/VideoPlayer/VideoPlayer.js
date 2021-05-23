@@ -7,7 +7,7 @@ const Wrapper = styled.section`
   width: 100%;
   height: 160px;
   position: relative;
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.bdRadius.regular};
   overflow: hidden;
   align-self: center;
 

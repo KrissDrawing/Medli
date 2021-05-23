@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const PrimaryButton = css`
   background-color: ${({ theme }) => theme.colors.primary};
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.bdRadius.regular};
 `;
 
 export const StyledButton = styled.button`
@@ -10,7 +10,7 @@ export const StyledButton = styled.button`
   height: 62px;
   width: 100%;
   font-size: 20px;
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.bdRadius.regular};
   background-color: ${({ theme }) => theme.colors.primary};
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {

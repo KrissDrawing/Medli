@@ -14,7 +14,7 @@ const StyledInput = styled.input`
   border: 1px solid ${({ theme }) => theme.colors.fontSecondaryDark};
   width: 100%;
   height: 62px;
-  border-radius: 8px;
+  border-radius: ${({ theme }) => theme.bdRadius.regular};
   padding: 15px 16px;
   margin: 0 0 16px 0;
   font-size: 20px;
@@ -47,7 +47,7 @@ const StyledCTAButton = styled(StyledButton)`
     width: 113px;
     height: 34px;
     font-size: 18px;
-    border-radius: 4px;
+    border-radius: ${({ theme }) => theme.bdRadius.small};
   }
 `;
 
