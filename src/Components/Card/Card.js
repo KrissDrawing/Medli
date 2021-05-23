@@ -11,13 +11,14 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   background-color: white;
   padding: 42px 0 45px 0;
   margin: 20px 15px;
   text-align: center;
 `;
 const Img = styled.img`
-  margin-bottom: 81px;
+  /* margin-bottom: 81px; */
 `;
 
 const StyledParagraph = styled(Paragraph)`
@@ -30,8 +31,10 @@ const Card = ({ src, heading, children }) => {
   return (
     <Wrapper>
       <Img src={src} />
-      <H4>{heading}</H4>
-      <StyledParagraph>{children}</StyledParagraph>
+      <div>
+        <H4>{heading}</H4>
+        <StyledParagraph>{children}</StyledParagraph>
+      </div>
     </Wrapper>
   );
 };
