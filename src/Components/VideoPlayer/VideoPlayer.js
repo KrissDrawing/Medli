@@ -11,6 +11,11 @@ const Wrapper = styled.section`
   overflow: hidden;
   align-self: center;
 
+  @media (min-width: 425px) {
+    height: auto;
+    max-height: 603px;
+  }
+
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     height: 603px;
     width: 1240px;
@@ -31,7 +36,9 @@ const StyledButton = styled.button`
 `;
 
 const VideoImg = styled.img`
+  display: block;
   width: 100%;
+  height: auto;
 `;
 
 const VideoPlayer = ({ src }) => {
