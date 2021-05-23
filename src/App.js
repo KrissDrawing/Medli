@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import NavBar from "Components/Navigation/NavBar";
 import Hero from "Sections/Hero/Hero";
 import Achievements from "Sections/Achievements/Achievements";
-import CommunitySection from "Sections/CommunitySection/CommunitySection";
-import OffertSection from "Sections/OffertSection/OffertSection";
+import Opinions from "Sections/Opinions/Opinions";
+import Offert from "Sections/Offert/Offert";
 import Footer from "Sections/Footer/Footer";
 
 const App = () => {
@@ -16,8 +16,8 @@ const App = () => {
         <Route exact path="/">
           <Hero />
           <Achievements />
-          <CommunitySection />
-          <OffertSection />
+          <Opinions />
+          <Offert />
           <Footer />
         </Route>
         <Redirect to="/" />

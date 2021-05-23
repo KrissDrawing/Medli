@@ -26,7 +26,7 @@ const StyledParagraph = styled(Paragraph)`
   }
 `;
 
-const OffertSection = () => {
+const Offert = () => {
   return (
     <Wrapper>
       <H2>What you’re getting?</H2>
@@ -50,4 +50,4 @@ const OffertSection = () => {
   );
 };
 
-export default OffertSection;
+export default Offert;

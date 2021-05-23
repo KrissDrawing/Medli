@@ -2,7 +2,7 @@ import { H2, Paragraph } from "Components/Utility/Utility";
 import React from "react";
 import styled from "styled-components";
 import VideoPlayer from "Components/VideoPlayer/VideoPlayer";
-import communityImage from "./communityImage.png";
+import opinionImage from "./opinionImage.png";
 
 const Wrapper = styled.section`
   display: flex;
@@ -39,7 +39,7 @@ const StyledParagraph = styled(Paragraph)`
   }
 `;
 
-const CommunitySection = () => {
+const Opinions = () => {
   return (
     <Wrapper>
       <H2>
@@ -49,9 +49,9 @@ const CommunitySection = () => {
       <StyledParagraph>
         A mission-driven company that invest <br /> in and builds healthier living
       </StyledParagraph>
-      <VideoPlayer src={communityImage} />
+      <VideoPlayer src={opinionImage} />
     </Wrapper>
   );
 };
 
-export default CommunitySection;
+export default Opinions;
