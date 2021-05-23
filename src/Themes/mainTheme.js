@@ -4,7 +4,7 @@ const theme = {
     secondary: "#FFFFFF",
     tertiary: "#131E07",
     fontPrimaryDark: "#131E07",
-    fontPirmaryLight: "#40462F",
+    fontPrimaryLight: "#40462F",
     fontSecondaryDark: "#7C8176",
     fontSecondaryLight: "#E5E5E5",
   },

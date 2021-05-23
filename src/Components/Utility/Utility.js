@@ -57,7 +57,7 @@ export const H5 = styled.h5`
 export const Paragraph = styled.p`
   font-size: 20px;
   line-height: 30px;
-  color: ${({ theme }) => theme.colors.fontPirmaryLight};
+  color: ${({ theme }) => theme.colors.fontPrimaryDark};
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     font-size: 24px;

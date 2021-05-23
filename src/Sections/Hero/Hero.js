@@ -48,6 +48,7 @@ const StyledH2 = styled(H2)`
   margin: 0;
 `;
 const StyledParagraph = styled(Paragraph)`
+  color: ${({ theme }) => theme.colors.fontPrimaryLight};
   margin: 16px 0 30px 0;
 `;
 
