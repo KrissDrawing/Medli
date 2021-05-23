@@ -32,8 +32,9 @@ const Img = styled.img`
   margin-bottom: 42px;
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
-    width: 667px;
-    height: 100%;
+    width: 677px;
+    height: 385px;
+    margin: 49px 0 0;
   }
 `;
 
