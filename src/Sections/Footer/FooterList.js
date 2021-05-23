@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   flex-direction: column;
   margin: 63px 0 55px;
 
-  & > div:nth-of-type(3) {
+  & > div:nth-of-type(1) {
     margin-right: 58px !important;
   }
   & > div:nth-of-type(2) {
@@ -16,13 +16,16 @@ const Wrapper = styled.div`
   }
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
-    flex-direction: row-reverse;
+    flex-direction: row;
     margin: 0;
   }
 `;
 const StyledUl = styled.ul`
   list-style: none;
   margin: 19px 0 31px 0;
+  &:last-of-type {
+    margin: 19px 0 0 0;
+  }
 `;
 const StyledNavLink = styled(NavLink)`
   color: ${({ theme }) => theme.colors.fontSecondaryLight};

@@ -7,7 +7,7 @@ const Wrapper = styled.div`
   min-width: 327px;
   max-width: 350px;
   height: 439px;
-  border-radius: ${({ theme }) => theme.bdRadius.regular}
+  border-radius: ${({ theme }) => theme.bdRadius.regular};
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,9 +16,6 @@ const Wrapper = styled.div`
   padding: 42px 0 45px 0;
   margin: 20px 15px;
   text-align: center;
-`;
-const Img = styled.img`
-  /* margin-bottom: 81px; */
 `;
 
 const StyledParagraph = styled(Paragraph)`
@@ -30,7 +27,7 @@ const StyledParagraph = styled(Paragraph)`
 const Card = ({ src, heading, children }) => {
   return (
     <Wrapper>
-      <Img src={src} />
+      <img src={src} />
       <div>
         <H4>{heading}</H4>
         <StyledParagraph>{children}</StyledParagraph>

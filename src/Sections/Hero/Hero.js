@@ -44,7 +44,9 @@ const Logotype = styled.img`
     width: 43px;
   }
 `;
-
+const StyledH2 = styled(H2)`
+  margin: 0;
+`;
 const StyledParagraph = styled(Paragraph)`
   margin: 16px 0 30px 0;
 `;
@@ -54,7 +56,7 @@ const Hero = () => {
     <Wrapper>
       <Img src={heroImg} />
       <InfoWrapper>
-        <H2>
+        <StyledH2>
           Check{" "}
           <NoWrap>
             y
@@ -63,7 +65,7 @@ const Hero = () => {
           </NoWrap>{" "}
           <wbr />
           <NoWrap>well-being</NoWrap>
-        </H2>
+        </StyledH2>
         <StyledParagraph>
           We’re sure that deciding to check on your health is a big step, even if it doesn’t bother
           in any way.

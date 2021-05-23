@@ -36,7 +36,7 @@ const MidFooter = styled.div`
 
 const LogoImg = styled.img`
   width: 173px;
-  margin: 64px 0 99px 0;
+  margin: 64px 0 56px;
 `;
 
 const StyledH5 = styled(H5)`

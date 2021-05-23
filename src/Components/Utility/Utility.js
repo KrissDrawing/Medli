@@ -37,6 +37,7 @@ export const H2Light = styled.h2`
   color: ${({ theme }) => theme.colors.primary};
   margin-bottom: 6px;
   font-size: 80px;
+  line-height: 93.6px;
 
   @media (min-width: ${({ theme }) => theme.screenSize.md}) {
     margin-bottom: 16px;
