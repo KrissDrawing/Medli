@@ -12,11 +12,18 @@ const Wrapper = styled.div`
   max-width: 359px;
   min-height: 130px;
   max-height: 160px;
-  margin-bottom: 108px;
+  margin: 0 56px 108px;
 
   &:last-of-type {
     margin-bottom: 0;
-    @media (min-width: 1000px) {
+  }
+
+  @media (min-width: ${({ theme }) => theme.screenSize.md}) {
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
       margin-bottom: 108px;
     }
   }
