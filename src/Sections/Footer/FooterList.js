@@ -6,7 +6,7 @@ import { H5 } from "Components/Utility/Utility";
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 63px 0 55px;
+  margin: 63px 0 24px;
 
   & > div:nth-of-type(1) {
     margin-right: 58px !important;
@@ -23,9 +23,6 @@ const Wrapper = styled.div`
 const StyledUl = styled.ul`
   list-style: none;
   margin: 19px 0 31px 0;
-  &:last-of-type {
-    margin: 19px 0 0 0;
-  }
 `;
 const StyledNavLink = styled(NavLink)`
   color: ${({ theme }) => theme.colors.fontSecondaryLight};
