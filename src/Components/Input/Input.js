@@ -46,7 +46,7 @@ const StyledCTAButton = styled(StyledButton)`
 const Input = ({ placeholder, type }) => {
   return (
     <Wrapper>
-      <StyledInput id="mail" type={type} placeholder={placeholder} required />
+      <StyledInput type={type} placeholder={placeholder} required />
       <StyledCTAButton onClick={() => {}}>Get Started</StyledCTAButton>
     </Wrapper>
   );
