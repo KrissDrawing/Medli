@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Medli/static/css/main.3586b947.chunk.css",
+    "main.js": "/Medli/static/js/main.c719feef.chunk.js",
+    "main.js.map": "/Medli/static/js/main.c719feef.chunk.js.map",
+    "runtime-main.js": "/Medli/static/js/runtime-main.bb756f11.js",
+    "runtime-main.js.map": "/Medli/static/js/runtime-main.bb756f11.js.map",
+    "static/js/2.b02a1194.chunk.js": "/Medli/static/js/2.b02a1194.chunk.js",
+    "static/js/2.b02a1194.chunk.js.map": "/Medli/static/js/2.b02a1194.chunk.js.map",
+    "index.html": "/Medli/index.html",
+    "static/css/main.3586b947.chunk.css.map": "/Medli/static/css/main.3586b947.chunk.css.map",
+    "static/js/2.b02a1194.chunk.js.LICENSE.txt": "/Medli/static/js/2.b02a1194.chunk.js.LICENSE.txt",
+    "static/media/FreeChat.c95ad917.svg": "/Medli/static/media/FreeChat.c95ad917.svg",
+    "static/media/PersonalCoach.54dbef70.svg": "/Medli/static/media/PersonalCoach.54dbef70.svg",
+    "static/media/Play.d01b31ed.svg": "/Medli/static/media/Play.d01b31ed.svg",
+    "static/media/TextChat.f04e55f3.svg": "/Medli/static/media/TextChat.f04e55f3.svg",
+    "static/media/burger.14f2b1a0.svg": "/Medli/static/media/burger.14f2b1a0.svg",
+    "static/media/heroImg.8325c537.svg": "/Medli/static/media/heroImg.8325c537.svg",
+    "static/media/logo.49fe9b28.svg": "/Medli/static/media/logo.49fe9b28.svg",
+    "static/media/logoLight.09f0b1fa.svg": "/Medli/static/media/logoLight.09f0b1fa.svg",
+    "static/media/logotype.b8d37982.svg": "/Medli/static/media/logotype.b8d37982.svg",
+    "static/media/opinionImage.b6b72a3e.png": "/Medli/static/media/opinionImage.b6b72a3e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb756f11.js",
+    "static/js/2.b02a1194.chunk.js",
+    "static/css/main.3586b947.chunk.css",
+    "static/js/main.c719feef.chunk.js"
+  ]
+}
