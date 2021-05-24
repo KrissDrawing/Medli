@@ -27,7 +27,7 @@ const StyledParagraph = styled(Paragraph)`
 const Card = ({ src, heading, children }) => {
   return (
     <Wrapper>
-      <img src={src} />
+      <img src={src} alt="" />
       <div>
         <H4>{heading}</H4>
         <StyledParagraph>{children}</StyledParagraph>

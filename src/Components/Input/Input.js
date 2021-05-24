@@ -1,6 +1,6 @@
-import { StyledButton } from "Components/Utility/Utility";
 import React from "react";
 import styled from "styled-components";
+import { StyledButton } from "Components/Utility/Utility";
 
 const Wrapper = styled.form`
   position: relative;
@@ -29,14 +29,6 @@ const StyledInput = styled.input`
     width: 350px;
     margin: 0;
   }
-`;
-
-const Label = styled.label`
-  color: ${({ theme }) => theme.colors.fontSecondaryDark};
-  font-size: 18px;
-  position: absolute;
-  top: -16px;
-  transform: translateY(-100%);
 `;
 
 const StyledCTAButton = styled(StyledButton)`

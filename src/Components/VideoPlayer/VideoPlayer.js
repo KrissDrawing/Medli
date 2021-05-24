@@ -46,7 +46,7 @@ const VideoPlayer = ({ src }) => {
     <Wrapper>
       <VideoImg src={src} />
       <StyledButton>
-        <img src={playButton} />
+        <img src={playButton} alt="Video Player" />
       </StyledButton>
     </Wrapper>
   );
